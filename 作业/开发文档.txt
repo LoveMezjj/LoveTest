@@ -1,0 +1,17 @@
+接口名称：用户信息查询
+接口功能：根据ID查询用户
+接口地址：http://localhost:8080/RESTfulAPI_war_exploded/users
+参数：用户ID（必须有）
+返回信息如下
+{
+    "statue": 1000,
+    "info": "请求成功",
+    "user": {
+        "userId": 1,
+        "userName": "青龙",
+        "userPassword": "ql"
+    }
+}
+
+
+
